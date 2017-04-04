@@ -1,0 +1,8 @@
+*{
+  font-family: 'Acme', sans-serif;
+}
+body{
+  background-image: url(../images/fondo1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
