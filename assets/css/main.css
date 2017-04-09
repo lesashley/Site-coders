@@ -4,5 +4,90 @@
 body{
   background-image: url(../images/fondo1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
+}
+#share{
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  color: #6E404B;
+  margin: 10px;
+  font-size: 20px;
+}
+
+#share h1{
+  font-size: 50px;
+}
+
+.button{
+  text-align: right;
+  background-color: gray;
+  color: white;
+  width: 90px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-image: url(../images/heart.png);
+  background-repeat: no-repeat;
+  border: 0;
+}
+
+.button:hover{
+  background-color: white;
+  color: gray;
+}
+
+.input{
+  border-radius: 10px;
+  color: #8A535E;
+  margin: 10px;
+  box-shadow:3px 3px 10px 2px
+    #D9D2CC;
+  font-size: 18px;
+}
+
+::-webkit-input-placeholder{
+  color: #8A535E;
+  opacity: 0.6;
+  text-align: center;
+  font-size: 17px;
+}
+
+.content-text{
+  border: 2px solid white;
+  width: 700px;
+  margin: 0 auto;
+  padding: 10px;
+  height: 60px;
+  background-color: white;
+  opacity: 0.4;
+  border-radius: 10px;
+}
+
+
+.delete-button{
+  background-image: url(../images/icon-delete.png);
+  width:18px;
+  height: 18px;
+  border: 0;
+  float: right;
+  background-color: transparent;
+}
+
+.estado{
+  width: 600px;
+  font-size: 22px;
+  color: black;
+
+}
+.name{
+  width: 600px;
+  color: #6E404B;
+  font-size: 17px;
+  font-weight: bold;
+}
+.content-text:hover{
+  background: #DBC5C7;
+  opacity: 0.5;
+  color: white;
 }
